@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Personalidade DC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Quem você seria no Universo DC?</h1>
+            <p>Descubra qual herói ou vilão mais combina com sua personalidade!</p>
+        </header>
+
+        <main id="quiz-container">
+            <div id="start-screen">
+                <button id="start-btn">Começar Quiz</button>
+            </div>
+
+            <div id="question-container" class="hidden">
+                <div id="progress-bar">
+                    <div id="progress"></div>
+                </div>
+                <h2 id="question-text"></h2>
+                <div id="options-container"></div>
+            </div>
+
+            <div id="result-container" class="hidden">
+                <h2>Seu resultado é...</h2>
+                <div id="main-result">
+                    <img id="result-img" src="" alt="Personagem">
+                    <h1 id="result-name"></h1>
+                    <p id="result-percentage"></p>
+                    <p id="result-description"></p>
+                </div>
+                <div id="secondary-results">
+                    <h3>Você também combina com:</h3>
+                    <ul id="secondary-list"></ul>
+                </div>
+                <button id="restart-btn">Refazer Quiz</button>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
