@@ -98,7 +98,7 @@ const questions = [
             { text: "Analiso onde errei ao confiar e aprendo a lição.", scores: { "Batman": 3, "Lex Luthor": 2, "Darkseid": 1 } },
             { text: "Sinto a dor, mas perdoo para seguir em frente.", scores: { "Superman": 3, "Flash": 2, "Mulher-Maravilha": 1 } },
             { text: "A traição é apenas uma oportunidade para um novo começo.", scores: { "Coringa": 3, "Arlequina": 2, "Lex Luthor": 1 } },
-            { text: "Retribuo com a força necessária para que não se repita.", scores: { "Aquaman": 3, "Darkseid": 2, "Mulher-Maravilha": 1 } },
+            { text: "Retribuo na mesma moeda para que não se repita.", scores: { "Aquaman": 3, "Darkseid": 2, "Mulher-Maravilha": 1 } },
             { text: "Enfrento o traidor olho no olho e exijo a verdade.", scores: { "Mulher-Maravilha": 3, "Lanterna Verde": 2, "Aquaman": 1 } }
         ]
     },
