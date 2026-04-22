@@ -48,6 +48,22 @@ header p {
     color: #ccc;
 }
 
+#intro-text {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    color: #eee;
+    text-align: justify;
+    font-size: 1rem;
+    border-left: 4px solid var(--secondary-color);
+}
+
+#intro-text strong {
+    color: var(--secondary-color);
+}
+
 #quiz-container {
     margin-top: 20px;
 }
