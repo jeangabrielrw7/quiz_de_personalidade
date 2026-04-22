@@ -1,4 +1,5 @@
-const characters = {
+document.addEventListener('DOMContentLoaded', () => {
+    const characters = {
     "Batman": { 
         name: "Batman", 
         description: "O Cavaleiro das Trevas. Estrategista nato, você usa seu intelecto e preparo para enfrentar qualquer desafio, transformando suas sombras em força.", 
@@ -248,3 +249,4 @@ function restartQuiz() {
     resultContainer.classList.add('hidden');
     startScreen.classList.remove('hidden');
 }
+   }); 
